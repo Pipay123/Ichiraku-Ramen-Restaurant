@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="./img/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="./img/hero-slider-2.jpg">
+    <link rel="preload" as="image" href="./img/hero-slider-3.jpg">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/special.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/testi.css">
+    <link rel="stylesheet" href="./css/strength.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <script defer src="./js/app.js"></script>
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/svg+xml">
+    <title>Ichiraku Ramen</title>
+</head>
+
+<body>
+    <div class="container" id="home">
+        <!-- 
+            PRELOAD
+        -->
+        <div class="preload">
+            <div class="preload-circle"></div>
+            <p>Ramen</p>
+        </div>
+
+
+        <div class="primary-screen">
+            <!-- 
+                TOPBAR 
+            -->
+            <div class="topbar padding-2 over-slider">
+                <div class="topbar-section">
+                    <div class="topbar__item">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <p>123 Hokage Lane Leaf Village, Fire Country Konoha</p>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="topbar__item">
+                        <ion-icon name="time-outline"></ion-icon>
+                        <p>Daily: 8.00 am to 10.00 pm</p>
+                    </div>
+                </div>
+                <div class="topbar-section">
+                    <div class="topbar__item">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <p>+639275400820</p>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="topbar__item">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <p>booking@Ichiraku.com</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- s
+                NAV 
+            -->
+            <nav class="padding-2 over-slider">
+                <img src="img2/Naruto Logo.png" width="67" height="40" alt="Ichiraku Ramen Logo">
+                <div class="nav__items">
+                    <a href="#home" class="nav-items--active">Home</a>
+                    <a href="#menu">Menus</a>
+                    <a href="#about">About Us</a>
+                    <a href="#chefs">Our Chefs</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="nav-right">
+                    <button class="btn btn-secondary" data-text="Come on!">
+                        <span>Find a table</span>
+                    </button>
+                    <div class="aside-open">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- 
+                ASIDE (RESPONSIVE)
+            -->
+            <aside>
+                <div class="aside-close">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </div>
+                <img src="img2/Naruto Logo.png" width="160" height="50" alt=Ichiraku Ramen Logo">
+                <div class="nav__items">
+                    <a href="#home" class="nav-items--active"><span>Home</span></a>
+                    <a href="#menu"><span>Menus</span></a>
+                    <a href="#about"><span>About Us</span></a>
+                    <a href="#chefs"><span>Our Chefs</span></a>
+                    <a href="#contact"><span>Contact</span></a>
+                </div>
+                <h2>Visit Us</h2>
+                <p>123 Hokage Lane Leaf Village, Fire Country Konoha</p>
+                <p>Open: 9.30 am - 2.30pm</p>
+                <p>booking@Ichirakuramen.com</p>
+                <div class="separator"></div>
+                <h3 class="highlight">Booking Request</h3>
+                <strong>
+                    <a href="tel:+88123123456">+09-275-400820</a>
+                </strong>
+            </aside>
+            <div class="aside-overlay"></div>
+
+
+            <!-- 
+                HEADER 
+            -->
+            <header class="padding-5">
+                <div class="slider-control slider-prev over-slider">
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+                <div class="slider-control slider-next over-slider">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+
+
+                <div class="slider-item">
+                    <div class="slider-bg"><img src="img2/Ramen-1.jpg"></div>
+                    <h2 reveal class="subtitle" style="--delay-item: 0">TRADATIONAL & HYGINE</h2>
+                    <h1 reveal class="title" style="--delay-item: 1">For the love of delicious food</h1>
+                    <p reveal class="paragraph" style="--delay-item: 2">Join us and savor the spine-chilling delight of our cuisine
+                    </p>
+                    <button class="btn" data-text="View Our Menu" reveal style="--delay-item: 3">
+                        <span>Taste the dish</span>
+                    </button>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-bg"><img src="img2/Ramen-2.jpg"></div>
+                    <h2 reveal class="subtitle" style="--delay-item: 0">DELIGHTFUL EXPERIENCE</h2>
+                    <h1 reveal class="title" style="--delay-item: 1">Flavors Inspired by the Seasons</h1>
+                    <p reveal class="paragraph" style="--delay-item: 2">Join us and savor the spine-chilling delight of our cuisine
+                    </p>
+                    <button class="btn" data-text="View Our Menu" reveal style="--delay-item: 3">
+                        <span>Taste the dish</span>
+                    </button>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-bg"><img src="img2/Ramen-3.jpg"></div>
+                    <h2 reveal class="subtitle" style="--delay-item: 0">AMAZING & DELICIOUS</h2>
+                    <h1 reveal class="title" style="--delay-item: 1">Where every flavor tells a story</h1>
+                    <p reveal class="paragraph" style="--delay-item: 2">Join us and savor the spine-chilling delight of our cuisine
+                    </p>
+                    <button class="btn" data-text="View Our Menu" reveal style="--delay-item: 3">
+                        <span>Taste the dish</span>
+                    </button>
+                </div>
+            </header>
+
+            <div class="book over-slider">
+                <img src="./img/hero-icon.png" alt="Booking icon">
+                <p>Book A Table</p>
+            </div>
+        </div>
+        <!-- primary-screen -->
+        <div class="back-top" title="Go to top">
+            <ion-icon name="caret-up-outline"></ion-icon>
+        </div>
+
+
+        <!-- 
+            SERVICE
+        -->
+        <section class="services padding-2" id="chefs">
+            <h3 class="subtitle">Flavors For Royalty</h3>
+            <h2 class="section-title">We Offer Top Notch Ramen</h2>
+            <p class="paragraph">The best social network is a table full of good food and surrounded by people you love. We cook with love so you can eat with a conscience.</p>
+            <div class="services-box">
+                <div class="service">
+                    <picture>
+                        <img src="img2/Ramen-image-1.jpg" alt="Breakfast">
+                    </picture>
+                    <h2>Shoyu Ramen</h2>
+                    <button>View Menu</button>
+                </div>
+                <div class="service">
+                    <picture>
+                        <img src="img2/Ramen-image-2.png" alt="Breakfast">
+                    </picture>
+                    <h2>Miso Ramen</h2>
+                    <button>View Menu</button>
+                </div>
+                <div class="service">
+                    <picture>
+                        <img src="img2/Ramen-image-3.png" alt="Breakfast">
+                    </picture>
+                    <h2>Tonkotsu Ramen</h2>
+                    <button>View Menu</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 
+            ABOUT 
+        -->
+        <section class="about padding-2" id="about">
+            <div class="about__info">
+                <h3 class="subtitle">Our Story</h3>
+                <h2 class="section-title">Every Flavor Tells a Story</h2>
+                <p class="paragraph">Ichiraku® was famous for its mouthwatering ramen, a secret recipe passed down through generations. The fragrant aroma of simmering broth filled the air, luring in passersby with promises of warmth and comfort. The humble eatery had a long wooden bar where customers could watch the skilled chefs work their magic, crafting bowls of perfection.</p>
+                <h3 class="highlight">Book Through Call</h3>
+                <strong>+63 (927) 540 0820</strong>
+                <button class="btn" data-text="Read more">
+                    <span>Read more</span>
+                </button>
+            </div>
+            <div class="about__image">
+                <div class="badge">
+                    <img src="img2/Naruto-about-badge-1.png" alt="About badge">
+                    <img src="./img/badge-2-bg.png" alt="About badge background">
+                </div>
+                <picture>
+                    <img src="img2/Naruto-about-image-2.jpg" alt="About abs image">
+                </picture>
+            </div>
+        </section>
+
+
+        <!-- 
+            SPECIAL DISH 
+        -->
+        <section class="special-dish">
+            <div class="special__image">
+                <img src="img2/Ramen-about-special-dish.jpg" alt="Special dish banner">
+            </div>
+            <div class="special__info">
+                <img src="./img/badge-1.png" alt="Badge">
+                <h2 class="subtitle">Special Dish</h2>
+                <h1 class="section-title">Lobster Tail Ramen</h1>
+                <p class="paragraph">Introducing our exquisite Lobster Tail Ramen, a culinary masterpiece that takes your taste buds on a decadent journey. This extraordinary dish marries the delicate sweetness of succulent lobster tail with the rich umami flavors of our signature ramen broth, creating a symphony of taste and texture that will leave you craving for more.</p>
+                <div class="price">
+                    <span>$40.00</span>
+                    <span>$20.00</span>
+                </div>
+                <button class="btn" data-text="View All Menu">
+                    <span>View All Menu</span>
+                </button>
+            </div>
+        </section>
+
+
+        <!-- 
+            MENU
+        -->
+        <section class="menu padding-2" id="menu">
+            <h3 class="subtitle over-slider">Special Selection</h3>
+            <h2 class="section-title over-slider">Delicious Menu</h2>
+            <div class="menu-box over-slider"><div class="menu-item" title="Special Tail Ramen">
+                <img src="img2/menu-1.jpg" alt="Dish">
+                <div class="menu__info">
+                    <div class="menu__info-top">
+                        <h2>Lobster Tail Ramen</h2><div class="tag">Special</div>
+                        <span></span>
+                        <h3>$25.50</h3>
+                    </div>
+                    <p>lobster tail, sesame seeds, soft boiled egg, fresh herbs, and veggies.</p>
+                </div>
+            </div><div class="menu-item" title="Shoyu Ramen">
+                <img src="img2/menu-2.jpeg" alt="Dish">
+                <div class="menu__info">
+                    <div class="menu__info-top">
+                        <h2>Shoyu Ramen</h2>
+                        <span></span>
+                        <h3>$10.00</h3>
+                    </div>
+                    <p>braised pork belly, bean sprouts, scallions, soft boiled egg, japanese rice, and bonito flakes.</p>
+                </div>
+            </div><div class="menu-item" title="Miso Ramen">
+                <img src="img2/menu-3.png" alt="Dish">
+                <div class="menu__info">
+                    <div class="menu__info-top">
+                        <h2>Miso Ramen</h2>
+                        <span></span>
+                        <h3>$32.00</h3>
+                    </div>
+                    <p>chicken, vegetable broth, soy sauce, mirin, sesame oil, and soft boiled egg.</p>
+                </div>
+            </div><div class="menu-item" title="Tonkotsu Ramen">
+                <img src="img2/menu-4.png" alt="Dish">
+                <div class="menu__info">
+                    <div class="menu__info-top">
+                        <h2>Tonkotsu Ramen</h2><div class="tag">New</div>
+                        <span></span>
+                        <h3>$40.00</h3>
+                    </div>
+                    <p>pork bones, green onions, fermented bamboo, soft boiled eggs, and woo ear mushrooms.</p>
+                </div>
+            </div>
+            <button class="btn over-slider" data-text="View All Menu">
+                <span>View All Menu</span>
+            </button>
+            <p class="winter over-slider">**During winter daily from <b>7:00 pm</b> to <b>9:00 pm</b></p>
+        </section>
+
+
+        <!-- 
+            TESTIMONIALS
+        -->
+        <section class="testi padding-2" id="contact">
+            <h2 class="section-title"><span>”</span>"I'd like to express my gratitude for your invitation to the delightful dinner the other night. The cuisine was truly exceptional.".</h2>
+            <div class="testi__separator">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="avatar">
+                <img src="img2/testi-avatar.png" alt="Avatar image">
+                <h3 class="subtitle">Hinata Hyuga</h3>
+            </div>
+        </section>
+
+
+        <!--
+            RESERVATION
+        -->
+        <div class="container-reservation padding-2">
+            <section class="reservation">
+                <form>
+                    <h2 class="section-title">Online Reservation</h2>
+                    <p class="paragraph">Booking request <a href="tel:+88123123456">+63-9275-400820</a> or fill out the order form</p>
+                    <div class="inputs">
+                        <div>
+                            <input class="input-field" type="text" placeholder="Your Name" autocomplete="off" required>
+                            <input class="input-field" type="tel" placeholder="Phone Number" autocomplete="off" inputmode="numeric" required>
+                        </div>
+                        <div>
+                            <span>
+                                <ion-icon name="person-outline"></ion-icon>
+                                <select name="person" class="input-field" required>
+                                    <option value="1-Person">1 Person</option>
+                                    <option value="2-Person">2 Person</option>
+                                    <option value="3-Person">3 Person</option>
+                                    <option value="4-Person">4 Person</option>
+                                    <option value="5-Person">5 Person</option>
+                                    <option value="6-Person">6 Person</option>
+                                    <option value="7-Person">7 Person</option>
+                                </select>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </span>
+                            <input class="input-field" id="reservation-date" type="date">
+                            <span>
+                                <ion-icon name="time-outline"></ion-icon>
+                                <select name="hour" class="input-field" required>
+                                    <option value="08:00am">08 : 00 am</option>
+                                    <option value="09:00am">09 : 00 am</option>
+                                    <option value="10:00am">10 : 00 am</option>
+                                    <option value="11:00am">11 : 00 am</option>
+                                    <option value="12:00am">12 : 00 am</option>
+                                    <option value="01:00pm">01 : 00 pm</option>
+                                    <option value="02:00pm">02 : 00 pm</option>
+                                    <option value="03:00pm">03 : 00 pm</option>
+                                    <option value="04:00pm">04 : 00 pm</option>
+                                    <option value="05:00pm">05 : 00 pm</option>
+                                    <option value="06:00pm">06 : 00 pm</option>
+                                    <option value="07:00pm">07 : 00 pm</option>
+                                    <option value="08:00pm">08 : 00 pm</option>
+                                    <option value="09:00pm">09 : 00 pm</option>
+                                    <option value="10:00pm">10 : 00 pm</option>
+                                </select>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </span>
+                        </div>
+                        <textarea class="input-field" cols="30" rows="7" placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn btn-secondary" data-text="Know you will enjoy it">
+                        <span>Book A Table</span>
+                    </button>
+                </form>
+
+                <div class="reservation-right">
+                    <h2 class="section-title">Contact Us</h2>
+                    <h3 class="highlight">Booking Request</h3>
+                    <strong>+09-275-400820</strong>
+                    <div class="separator"></div>
+                    <h3>Location</h3>
+                    <p>123 Hokage Lane Leaf Village, Fire Country Konoha</p>
+                    <h3>Lunch Time</h3>
+                    <p>Monday to Sunday 11.00 am - 2.30pm</p>
+                    <h3>Dinner Time</h3>
+                    <p>Monday to Sunday 05.00 pm - 10.00pm</p>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- 
+            STRENGTH
+        -->
+        <section class="strength padding-2">
+            <h3 class="subtitle">Why Choose Us</h3>
+            <h2 class="section-title">Our Strength</h2>
+            <div class="strength-box">
+                <div class="strength__item">
+                    <img src="./img/features-icon-1.png" alt="Features image">
+                    <h2>Hygienic Food</h2>
+                    <p>Experience the impeccable cleanliness and hygiene of our restaurant, where your health and satisfaction are our top priorities, offering you a dining experience like no other.</p>
+                </div>
+                <div class="strength__item">
+                    <img src="./img/features-icon-2.png" alt="Features image">
+                    <h2>Fresh Environment</h2>
+                    <p>Indulge in a culinary journey like no other, where vibrant flavors and locally sourced ingredients come together to create a dining experience that's nothing short of extraordinary.</p>
+                </div>
+                <div class="strength__item">
+                    <img src="./img/features-icon-3.png" alt="Features image">
+                    <h2>Skilled Chefs</h2>
+                    <p>Treat your senses to the culinary mastery of our talented chef Naruto, as he turn premium ingredients into unforgettable creations that will leave you longing for another bite.</p>
+                </div>
+                <div class="strength__item">
+                    <img src="./img/features-icon-4.png" alt="Features image">
+                    <h2>Event & Party</h2>
+                    <p>Join us at our upcoming event party for an unforgettable night filled with live music, delicious cuisine, and an electrifying atmosphere that will leave you wanting more!</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 
+            UPDATES
+        -->
+        <section class="updates padding-5">
+            <h3 class="subtitle">Recent Updates</h3>
+            <h2 class="section-title">Upcoming Event</h2>
+            <div class="updates-box">
+                <div class="updates__item">
+                    <img src="img2/event-1.png" alt="Updates image">
+                    <h3 class="subtitle">Food, Flavour</h3>
+                    <h2>Flavour so good you’ll try to eat with your eyes.</h2>
+                    <div class="tag-date">16/01/2023</div>
+                </div>
+                <div class="updates__item">
+                    <img src="img2/event-2.jpg" alt="Updates image">
+                    <h3 class="subtitle">Healthy Food</h3>
+                    <h2>Flavour so good you’ll try to eat with your eyes.</h2>
+                    <div class="tag-date">05/01/2023</div>
+                </div>
+                <div class="updates__item">
+                    <img src="img2/event-3.jpg" alt="Updates image">
+                    <h3 class="subtitle">Recipie</h3>
+                    <h2>Flavour so good you’ll try to eat with your eyes.</h2>
+                    <div class="tag-date">29/12/2022</div>
+                </div>
+            </div>
+            <button class="btn" data-text="You'll love it">
+                <span>View Our Blog</span>
+            </button>
+        </section>
+
+
+        <!-- 
+            FOOTER
+        -->
+        <footer>
+            <div class="footer__links">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About us</a>
+                <a href="#chefs">Our Chefs</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="getInToch padding-2">
+                <img src="img2/Naruto Logo.png" alt="Ichiraku Ramen Logo">
+                <p class="text">123 Hokage Lane Leaf Village, Fire Country Konoha</p>
+                <a href="mailto:booking@Ichiraku.com" class="text">booking@Ichiraku.com</a>
+                <a href="tel:+88123123456" class="text">Booking Request : +39-275</a>
+                <p class="text">Open : 09:00 am - 01:00 pm</p>
+                <div class="footer-separator"><span></span><span></span><span></span></div>
+                <h2 class="section-title">Get News & Offers</h2>
+                <h3>Subscribe us & Get <span>25% Off.</span></h3>
+                <div class="subscribe">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" inputmode="email" placeholder="Your email" maxlength="70">
+                    <button class="btn btn-secondary" data-text="Appreciated!">
+                        <span>Subscribe</span>
+                    </button>
+                </div>
+            </div>
+            <div class="footer__links">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://www.youtube.com" target="_blank">Youtube</a>
+                <a href="https://www.google.com/maps" target="_blank">Google Maps</a>
+            </div>
+            <p class="credits">© 2023 Ichiraku. All Rights Reserved</p>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
